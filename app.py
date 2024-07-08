@@ -6,7 +6,7 @@ CORS(app)
 
 @app.route('/')
 def home():
-    return jsonify(message="HEEEEEELO WORLD")
+    return jsonify(message="YOU GOT IT")
 
 if __name__ == '__main__':
     app.run(debug=True)
